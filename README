@@ -1,0 +1,17 @@
+MathIsFun2 V 01.02.04
+1. Device tested and ready for Appstore
+2. Some bug fixed 
+
+MathIsFun2 is short form of "Math is fun too"
+v 01.02.01
+
+Made with Sparrow framework 1.0 version.
+ 
+A simple game where the user is asked to finish as many questions as possible. 
+Uses accelerometer to change the mode of the questions.
+The question changes when the counter becomes 1000.
+
+Thats all to it.
+
+Sparrow framework : http://www.sparrow-framework.org/
+Unlicense : http://unlicense.org/
