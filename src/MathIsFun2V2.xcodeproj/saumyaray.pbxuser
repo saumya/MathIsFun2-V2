@@ -1,6 +1,6 @@
 // !$*UTF8*$!
 {
-	1D6058900D05DD3D006BFB54 /* AppScaffold */ = {
+	1D6058900D05DD3D006BFB54 /* MathIsFun2V2 */ = {
 		activeExec = 0;
 		executables = (
 			99AE97C8138F46E3004D6012 /* AppScaffold */,
@@ -9,7 +9,7 @@
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 99AE97C8138F46E3004D6012 /* AppScaffold */;
-		activeTarget = 1D6058900D05DD3D006BFB54 /* AppScaffold */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* MathIsFun2V2 */;
 		codeSenseManager = 99AE9802138F46F7004D6012 /* Code sense */;
 		executables = (
 			99AE97C8138F46E3004D6012 /* AppScaffold */,
@@ -37,8 +37,8 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 328158763;
-			PBXWorkspaceStateSaveDate = 328158763;
+			PBXPerProjectTemplateStateSaveDate = 329579725;
+			PBXWorkspaceStateSaveDate = 329579725;
 		};
 		sourceControlManager = 99AE9801138F46F7004D6012 /* Source Control */;
 		userBuildSettings = {

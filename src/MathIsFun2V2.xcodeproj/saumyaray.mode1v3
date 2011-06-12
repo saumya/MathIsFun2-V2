@@ -329,14 +329,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {805, 407}}</string>
+								<string>{{0, 0}, {805, 400}}</string>
 								<key>RubberWindowFrame</key>
 								<string>169 136 1013 642 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>407pt</string>
+							<string>400pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -349,14 +349,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 412}, {805, 189}}</string>
+								<string>{{0, 405}, {805, 196}}</string>
 								<key>RubberWindowFrame</key>
 								<string>169 136 1013 642 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>189pt</string>
+							<string>196pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -375,9 +375,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>995BB22F138F4E600071720C</string>
+				<string>9912E68713A4FCD4002DC5FD</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>995BB230138F4E600071720C</string>
+				<string>9912E68813A4FCD4002DC5FD</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -515,10 +515,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1CD10A99069EF8BA00B06720</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>99AE97F8138F46F7004D6012</string>
-		<string>/Users/saumyaray/devHome/iApps/sparrowRnD/1.2/helloSparrow1.2/src/AppScaffold.xcodeproj</string>
+		<string>/Users/saumyaray/devHome/iApps/gamesOn_GitHub/MathIsFun2-V2/src/MathIsFun2V2.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>169 136 1013 642 0 0 1280 778 </string>
@@ -598,7 +596,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>99AE97F8138F46F7004D6012</string>
-				<string>995BB231138F4E600071720C</string>
+				<string>9912E68913A4FCD4002DC5FD</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>

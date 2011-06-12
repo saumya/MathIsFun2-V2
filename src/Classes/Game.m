@@ -11,6 +11,7 @@
 {
     if ((self = [super initWithWidth:width height:height]))
     {
+        /*
         // this is where the code of your game will start. 
         // in this sample, we add just a simple quad to see if it works.
         
@@ -30,11 +31,18 @@
         // 
         // If you want to support the iPad, you have to change the "iOS deployment target" setting
         // to "iOS 3.2" (or "iOS 4.2", if it is available.)
+        */
         NSLog(@"Let the game begin!");
+        
         GameEngine *ge=[[GameEngine alloc] initWithDefaultOrientation];
         [self addChild:ge];
+        [ge initParticleSystem];
         [ge release];
     }
     return self;
 }
+
+
+
+
 @end

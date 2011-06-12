@@ -16,8 +16,51 @@
 	if ((self=[super init])) {
 		[self init];
         NSLog(@"GameEngine:initWithDefaultOrientation");
+        //[self initParticleSystem];
+        // register touch event for emitter manipulation
+        [self addEventListener:@selector(onTouch:) 
+                      atObject:self 
+                       forType:SP_EVENT_TYPE_TOUCH]; 
 	}
 	return self;
+}
+
+-(void)initParticleSystem
+{
+    //SPStage *stage=[SPStage mainStage];//new in Sparrow 1.2 , yeaahaa :)
+    SPStage *stage=[self stage];
+    SPJuggler *juggler=[stage juggler];
+    
+    // create particle system
+    mParticleSystem = [[SXParticleSystem alloc] initWithContentsOfFile:@"drugs.pex"];
+    mParticleSystem.x = stage.width / 2.0f;
+    mParticleSystem.y = stage.height / 2.0f;
+    
+    // add it to the stage and the juggler
+    [self addChild:mParticleSystem];
+    //[self.juggler addObject:mParticleSystem];
+    [juggler addObject:mParticleSystem];
+    
+    [mParticleSystem start];
+    [mParticleSystem release];
+    
+    /*
+    // register touch event for emitter manipulation
+    [self addEventListener:@selector(onTouch:) 
+                  atObject:self forType:SP_EVENT_TYPE_TOUCH]; 
+     */
+}
+
+- (void)onTouch:(SPTouchEvent *)event
+{
+    NSLog(@"onTouch");
+    SPTouch *touch = [[event touchesWithTarget:self] anyObject];
+    if (touch)
+    {
+        SPPoint *emitterPos = [touch locationInSpace:mParticleSystem];
+        mParticleSystem.emitterX = emitterPos.x;
+        mParticleSystem.emitterY = emitterPos.y;
+    }
 }
 
 @end

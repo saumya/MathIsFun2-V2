@@ -7,5 +7,7 @@
 #import <GameEngine.h>
 
 @interface Game : SPStage
-
+{
+    
+}
 @end

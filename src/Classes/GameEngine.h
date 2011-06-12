@@ -8,12 +8,16 @@
 
 #import <Foundation/Foundation.h>
 #import <Sparrow.h>
+#import "SXParticleSystem.h"
+
 
 @interface GameEngine : SPSprite
 {
-    
+    @private 
+    SXParticleSystem *mParticleSystem;
 }
 
--initWithDefaultOrientation;
+-(id)initWithDefaultOrientation;
+-(void)initParticleSystem;
 
 @end
