@@ -33,11 +33,9 @@
         // to "iOS 3.2" (or "iOS 4.2", if it is available.)
         */
         NSLog(@"Let the game begin!");
-        
-        GameEngine *ge=[[GameEngine alloc] initWithDefaultOrientation];
-        [self addChild:ge];
-        [ge initParticleSystem];
-        [ge release];
+        MathIsFun2 *mathIsFun2=[[MathIsFun2 alloc] initWithDefaultEngine];
+        [self addChild:mathIsFun2];
+        [mathIsFun2 release];
     }
     return self;
 }

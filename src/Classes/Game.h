@@ -4,7 +4,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <GameEngine.h>
+#import <MathIsFun2.h>
 
 @interface Game : SPStage
 {
