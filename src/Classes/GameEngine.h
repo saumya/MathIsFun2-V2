@@ -9,15 +9,23 @@
 #import <Foundation/Foundation.h>
 #import <Sparrow.h>
 #import "SXParticleSystem.h"
+//
+#import "GameView.h"
+#import "OptionsView.h"
 
 
 @interface GameEngine : SPSprite
 {
     @private 
     SXParticleSystem *mParticleSystem;
+    //
+    GameView *gameView;
+    OptionsView *optionView;
 }
 
 -(id)initWithDefaultOrientation;
 -(void)initParticleSystem;
+//
+-(void)initPlayground;
 
 @end

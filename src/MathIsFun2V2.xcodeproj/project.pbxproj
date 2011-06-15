@@ -19,6 +19,8 @@
 		990A9F1213A5069B00EA2C91 /* SXNSDataExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 990A9F0F13A5069B00EA2C91 /* SXNSDataExtensions.m */; };
 		990A9F1313A5069B00EA2C91 /* SXParticleSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 990A9F1113A5069B00EA2C91 /* SXParticleSystem.m */; };
 		990A9F1613A70C6400EA2C91 /* MathIsFun2.m in Sources */ = {isa = PBXBuildFile; fileRef = 990A9F1513A70C6400EA2C91 /* MathIsFun2.m */; };
+		990A9F1C13A8625200EA2C91 /* GameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 990A9F1B13A8625200EA2C91 /* GameView.m */; };
+		990A9F1F13A862FB00EA2C91 /* OptionsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 990A9F1E13A862FB00EA2C91 /* OptionsView.m */; };
 		99B453F8139112E70039AEC5 /* GameEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B453F7139112E70039AEC5 /* GameEngine.m */; };
 		DE3F093811B7B9DC009D4DB0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE3F093711B7B9DC009D4DB0 /* AVFoundation.framework */; };
 		DE3F093A11B7B9DC009D4DB0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE3F093911B7B9DC009D4DB0 /* AudioToolbox.framework */; };
@@ -74,6 +76,10 @@
 		990A9F1113A5069B00EA2C91 /* SXParticleSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SXParticleSystem.m; path = particleSystem/SXParticleSystem.m; sourceTree = "<group>"; };
 		990A9F1413A70C6400EA2C91 /* MathIsFun2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathIsFun2.h; sourceTree = "<group>"; };
 		990A9F1513A70C6400EA2C91 /* MathIsFun2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathIsFun2.m; sourceTree = "<group>"; };
+		990A9F1A13A8625200EA2C91 /* GameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameView.h; sourceTree = "<group>"; };
+		990A9F1B13A8625200EA2C91 /* GameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameView.m; sourceTree = "<group>"; };
+		990A9F1D13A862FB00EA2C91 /* OptionsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsView.h; sourceTree = "<group>"; };
+		990A9F1E13A862FB00EA2C91 /* OptionsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsView.m; sourceTree = "<group>"; };
 		99B453F6139112E70039AEC5 /* GameEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameEngine.h; sourceTree = "<group>"; };
 		99B453F7139112E70039AEC5 /* GameEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameEngine.m; sourceTree = "<group>"; };
 		DE3F093711B7B9DC009D4DB0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -197,6 +203,10 @@
 				99B453F7139112E70039AEC5 /* GameEngine.m */,
 				990A9F1413A70C6400EA2C91 /* MathIsFun2.h */,
 				990A9F1513A70C6400EA2C91 /* MathIsFun2.m */,
+				990A9F1A13A8625200EA2C91 /* GameView.h */,
+				990A9F1B13A8625200EA2C91 /* GameView.m */,
+				990A9F1D13A862FB00EA2C91 /* OptionsView.h */,
+				990A9F1E13A862FB00EA2C91 /* OptionsView.m */,
 			);
 			name = saumya;
 			sourceTree = "<group>";
@@ -304,6 +314,8 @@
 				990A9F1213A5069B00EA2C91 /* SXNSDataExtensions.m in Sources */,
 				990A9F1313A5069B00EA2C91 /* SXParticleSystem.m in Sources */,
 				990A9F1613A70C6400EA2C91 /* MathIsFun2.m in Sources */,
+				990A9F1C13A8625200EA2C91 /* GameView.m in Sources */,
+				990A9F1F13A862FB00EA2C91 /* OptionsView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

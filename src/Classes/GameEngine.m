@@ -18,6 +18,7 @@
         NSLog(@"GameEngine:initWithDefaultOrientation");
         
         [self initParticleSystem];
+        [self initPlayground];
 	}
 	return self;
 }
@@ -66,6 +67,18 @@
         mParticleSystem.emitterX = emitterPos.x;
         mParticleSystem.emitterY = emitterPos.y;
     }
+}
+
+-(void)initPlayground
+{
+    gameView=[[GameView alloc] initWithDefaultEngine];
+    optionView=[[OptionsView alloc] initWithDefaultEngine];
+    //
+    [self addChild:gameView];
+    [self addChild:optionView];
+    //
+    [gameView release];
+    [optionView release];
 }
 
 @end
